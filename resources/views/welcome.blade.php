@@ -46,6 +46,15 @@
 
 </head>
 
+<style>
+html {
+  scroll-behavior: smooth;
+}
+.main-slider .carousel .item {
+    min-height:50px;
+}
+</style>
+
 <body>
 	<!-- ALL SECTION INCLOSED TO THE WRAPPER -->
 	<div class="wrapper">
@@ -156,19 +165,18 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
-									<div class="slider-items">
+									<div class="slider-items" style="margin-top:100px;margin-bottom:200px">
 										<div class="animation animated-item-4">
 											
 											<div class="slider-head-style">
 											</div>
 										</div>
-										<div class="mian-heading">
-											<h2>Automação <span class="typed-from-js"></span></h2>
-											<div class="main-title">
-												<h3>Entre em Contato</h3>
-												<strong></strong> 
-											</div>
-										</div>
+										<div class="section-heading if-bg-colorful">
+					<div class="main-title">
+						<h2><span>Automação</span> Residencial</h2>
+						<strong></strong> <!-- Use for heading after effect -->
+					</div>
+				</div> <!-- /.section-heading -->
 									</div>
 								</div>
 							</div>
@@ -280,7 +288,7 @@
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-me-15 col-lg-me-15 search-field">
 										<div class="submit">
-											<button type="submit" value="Search" class="dream-btn">Contato</button>
+											<button type="submit" value="Search" class="dream-btn">Orçamento</button>
 										</div>
 									</div>
 								</form>
@@ -302,7 +310,7 @@
 		<!-- /MAIN SLIDER AND PROPERTY SEARCH AREA START --> 
 
 		<!-- RENEWAL AREA START -->
-		<section class="renewal">
+		<section class="renewal" id="servicos">
 			<div class="container">	
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -384,7 +392,7 @@
 </style>
         
 		<!-- ROOM FEATURE AREA START -->
-		<section class="room-feature">
+		<section class="room-feature" id="sobre-nos">
 			<div class="bg-img-over-effect"></div>
 			<div class="container">	
 				<div class="section-heading if-bg-colorful">
@@ -550,7 +558,7 @@
 		<!-- /ROOM FEATURE AREA END -->
 
 		<!-- OUR TEAM AREA START -->
-		<section class="our-team">
+		<section class="our-team" id="apresentacao">
 			<div class="container">
 				<div class="section-heading">
 					<h5>Estamos na Rede</h5>
