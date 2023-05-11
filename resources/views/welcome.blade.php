@@ -37,13 +37,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/header-menu-responsive.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
 </head>
 
 <style>
@@ -51,7 +44,10 @@ html {
   scroll-behavior: smooth;
 }
 .main-slider .carousel .item {
-    min-height:50px;
+    min-height:20px;
+}
+.carousel-inner {
+	overflow:visible !important;
 }
 </style>
 
@@ -77,42 +73,18 @@ html {
 		<!-- END LOADING -->
 			
 		<!-- HEADER AREA START -->
-		<header class="header fixed">
-			<!-- Header Top Begin -->
-			<div class="header-top hidden-xs hidden-sm">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-5">
-							<div class="social-to">
-								<ul>									
-									<li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div> <!-- /.social-to -->
-						</div> <!-- /.col- -->
-						<div class="col-xs-12 col-sm-12 col-md-9 col-lg-7">
-							<div class="contact-to">
-								<div class="contact-text">
-									<ul>
-										<li><a href="#"><i class="fa fa-map-marker"></i>São Paulo - SP</a></li>
-										<li><a href="#"><i class="fa fa-mobile-phone"></i>+55 11 97959-5047</a></li>
-										<li><a href="#"><i class="fa fa-clock-o"></i>Segunda - Sexta 10:00 - 18:00</a></li>
-									</ul>
-								</div>
-							</div> <!-- /.contact-to -->
-						</div> <!-- /.col- -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</div> <!-- /.header-top -->
+		<header class="header"  style="background-color:none;border:none;margin:0">
+			
 
 			<!-- Main Menu Area Begin -->
-			<div class="container">		
+			<div class="container"  style="background-color:none;margin-bottom:-200px">		
 				<div class="main-menu-deputy">
 					<!-- Navbar visibility controls (<800px) -->
 					<div class="menu-when-collapse"></div>
 					<div class="menu-collapse-after-effect"></div>
 					<div class="logo">
 						<a href="index.html">
-							<img src="assets/images/logo/logo.png" alt="Logo">
+							<img src="assets/images/logo/logo.png" style="z-index:99999999 !important" alt="Logo">
 						</a>
 					</div><!-- /.logo -->
 				</div><!-- /.main-menu-deputy -->
@@ -165,16 +137,18 @@ html {
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
-									<div class="slider-items" style="margin-top:100px;margin-bottom:200px">
+									<div class="slider-items" style="margin-top:0px;margin-bottom:350px;opacity:none">
 										<div class="animation animated-item-4">
 											
 											<div class="slider-head-style">
 											</div>
 										</div>
 										<div class="section-heading if-bg-colorful">
-					<div class="main-title">
+					<div class="main-title" style="margin-top:50px">
 						<h2><span>Automação</span> Residencial</h2>
-						<strong></strong> <!-- Use for heading after effect -->
+						<strong></strong> 
+						
+						<!-- Use for heading after effect -->
 					</div>
 				</div> <!-- /.section-heading -->
 									</div>
@@ -229,83 +203,10 @@ html {
 						</div>
 					</div>  -->
 
-					<!-- Property Search Area Start -->
-					<div class="property-search-area container">
-						<div class="property-search-form ">
-							<div class="advanced-search-sec row">
-								<form method="get" action="#">
-									<div class="col-xs-12 col-sm-6 col-md-me-15 col-lg-me-17 search-field">
-				                    	<label for="property-location">Localização</label>
-				                        <select id="property-location" name="Cities">
-				                            <option value="0">em São Paulo</option>
-				                            <option value="1">Zona Norte</option>
-				                            <option value="2">Zona Sul</option>
-				                            <option value="3">Zona Leste</option>
-				                            <option value="4">Zona Oeste</option>
-				                            <option value="5">Fora de São Paulo</option>
-				                        </select>
-				                    </div>
-									<div class="col-xs-12 col-sm-6 col-md-me-15 col-lg-me-17 search-field">
-										<label for="proeprty-type">Tipo de Automação</label>
-										<select id="proeprty-type" name="Property-type">
-											<option value="0">Escolha</option>
-											<option value="1">Apartamento</option>
-											<option value="2">Casa</option>
-											<option value="3">Comércio</option>
-										</select>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-me-13 col-lg-me-13 search-field">
-										<label for="property-room">Espaços</label>
-										<select id="property-room" name="Total-room">
-											<option value="0">Escolha</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">+5</option>
-										</select>
-									</div>
-								
-									<div class="col-xs-12 col-sm-6 col-md-me-29 col-lg-me-25 search-field">
-										<div class="price-range">
-											<div class="property-price">
-												<label>Preço Imóvel</label>
-												<div class="price-range">
-													<div class="price-input-count">
-														<input type="text" name="price min" id="price-min" />
-													</div>
-													<span class="price-money">-</span>
-													<div class="price-input-count">
-														<input type="text" name="price max" id="price-max" />
-													</div>
-												</div>
-												<div class="price-range-select">
-													<div class="priceSlider"></div>
-												</div>
-											</div> <!-- /.property-price -->
-										</div> <!-- /.price-range -->
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-me-15 col-lg-me-15 search-field">
-										<div class="submit">
-											<button type="submit" value="Search" class="dream-btn">Orçamento</button>
-										</div>
-									</div>
-								</form>
-							</div> <!-- /.advanced-search-sec -->
-							<!-- Show or Hide Property -->
-							<a class="more-options close-element"></a>
-						</div>
-					</div> <!-- /.property-search-area -->
-					<!-- Property Search Area End -->
+					
 				</div> <!-- /.carousel-inner -->
 			</div> <!--/.carousel--> 
-			<a class="prev hidden-xs" href="#main-slider" data-slide="prev"> 
-				<i class="fa fa-long-arrow-left"></i>
-			</a> 
-			<a class="next hidden-xs" href="#main-slider" data-slide="next"> 
-				<i class="fa fa-long-arrow-right"></i> 
-			</a> 
+			
 		</section> <!-- /.main-slider -->
 		<!-- /MAIN SLIDER AND PROPERTY SEARCH AREA START --> 
 
@@ -384,7 +285,7 @@ html {
 
 <style>
 .room-slider .carousel-indicators{
-    top:25% !important;
+    top:50% !important;
 }
 .room-slider {
     /* height:300px !important; */
@@ -422,19 +323,19 @@ html {
 									<li data-target="#room-slider" data-slide-to="1"></li>
 									<li data-target="#room-slider" data-slide-to="2"></li>
                                     <li data-target="#room-slider" data-slide-to="3"></li>
-                                    <li data-target="#room-slider" data-slide-to="4"></li>
+                                    <!-- <li data-target="#room-slider" data-slide-to="4"></li>
 									<li data-target="#room-slider" data-slide-to="5"></li>
 									<li data-target="#room-slider" data-slide-to="6"></li>
                                     <li data-target="#room-slider" data-slide-to="7"></li>
 									<li data-target="#room-slider" data-slide-to="8"></li>
 									<li data-target="#room-slider" data-slide-to="9"></li>
-                                    <li data-target="#room-slider" data-slide-to="10"></li>
+                                    <li data-target="#room-slider" data-slide-to="10"></li> -->
 								</ol>
 								<!-- Wrapper for slides (Vertical) -->
 								<div class="carousel-inner vertical" role="listbox">
 
 
-									<div class="item active item-bg-1">
+									<div class="item active item-bg-4">
 										<div class="bg-img-over-effect"></div>
 										<div class="slider-in-room">
 											<div class="content">
@@ -445,7 +346,7 @@ html {
 										</div> <!-- /.slider-in-room -->
 									</div> <!-- /.item -->
 
-									<div class="item item-bg-2">
+									<div class="item item-bg-4">
 										<div class="bg-img-over-effect"></div>
 										<div class="slider-in-room">
 											<div class="content">
@@ -456,7 +357,7 @@ html {
 										</div> <!-- /.slider-in-room -->
 									</div> <!-- /.item -->
 
-									<div class="item item-bg-3">
+									<div class="item item-bg-4">
 										<div class="slider-in-room">
 										<div class="bg-img-over-effect"></div>
 											<div class="content">
@@ -650,127 +551,6 @@ html {
 			</div><!-- container -->
 		</section> <!-- /.our-team -->
 		<!-- /OUR TEAM AREA END -->
-
-		<!-- TESTIMONIAL AREA START -->
-		<section class="testimonial">
-			<div class="bg-img-over-effect"></div>
-			<div class="container">
-				<div class="section-heading if-bg-colorful">
-					<h5>O que nossos clientes dizem</h5>
-					<div class="main-title">
-						<h2><span>Cases de </span> Sucesso</h2>
-						<strong></strong> <!-- Use for heading after effect -->
-					</div>
-				</div> <!-- /.section-heading -->
-				<div class="row">
-					<div id="testimonial-carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-2 col-lg-offset-2">
-							<div class="carousel-inner">
-								<!-- Carousel items -->
-								<div class="item active">
-									<div class="client-opition">
-										<div class="row">
-											<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-												<div class="client-thumb">
-													<img src="assets/images/client/client.png" alt="Client">
-												</div>
-											</div>
-											<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-												<div class="client-focus">
-													<div class="client-mind">
-														<h4>Título do Comentário</h4>
-													</div>
-													<div class="designation">
-														<h5>Nome do Cliente</h5>
-													</div>
-													<div class="feedback">
-														<img src="assets/images/icons/5star.png" alt="feedback">
-													</div>
-												</div> <!-- /.client-focus -->
-											</div>
-										</div> <!-- /.row -->
-									</div> <!-- /.client-opition -->
-									<div class="client-said">
-										<p>Comentário</p>
-										
-									</div> <!-- /.client-said -->
-								</div> <!-- /.item -->
-								
-							</div> <!-- /.carousel-inner -->
-						</div> <!-- /.col- -->
-						<!-- Carousel nav -->
-						<a class="carousel-control left" href="#testimonial-carousel" data-slide="prev">
-							<i class="fa fa-long-arrow-left"></i>
-						</a>
-						<a class="carousel-control right" href="#testimonial-carousel" data-slide="next">
-							<i class="fa fa-long-arrow-right"></i>
-						</a>
-					</div> <!-- /#testimonial-carousel -->
-				</div> <!-- /.row -->
-			</div> <!-- /.container -->
-		</section> <!-- /.testimonial-->
-		<!-- /TESTIMONIAL AREA END -->
-
-		<!-- SHOWCASE FEATURE AREA START -->
-		<section class="showcase-feature">
-			<div class="container">	
-				<div class="section-heading wow zoomIn">
-					<h5>Área de Projetos</h5>
-					<div class="main-title">
-						<h2><span>Nossos Projetos</span>Concluídos</h2>
-						<strong></strong> <!-- Use for heading after effect -->
-					</div>
-				</div> <!-- /.section-heading -->
-				<div id="showcase-main-thumb-slider-section" class="wow zoomIn">
-					<!-- Showcase Slider Main -->
-					<div id="showcase-main-area-slider">
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-					</div> <!-- /#showcase-main-area-slider -->
-					<!-- Showcase Slider Thumbnail -->
-					<div id="showcase-thumb-slider">
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="assets/images/slider/showcase/1.png"></div>
-						</div>
-					</div> <!-- /#showcase-thumb-slider -->
-				</div> <!-- /#showcase-main-thumb-slider-section --> 
-				<div class="showcase-btn">
-					<a href="#" class="dream-btn"> Visualizar Projetos</a>
-				</div>
-			</div> <!-- /.container -->
-		</section> <!-- /.showcase-feature -->
-		<!-- /SHOWCASE FEATURE AREA END -->
 
 		<!-- FEATURES AREA START -->
 		<section class="features">

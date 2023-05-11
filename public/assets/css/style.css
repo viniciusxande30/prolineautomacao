@@ -1062,7 +1062,8 @@ ul, li {
     top: 0;
     bottom: 0;
     z-index: -10;
-    background: rgba(21, 16, 3, 0.8);
+    /* Esse aqui cuida da opacidade do slide não esqueça */
+    background: rgba(21, 16, 3, 0.5);
 }
 .main-slider .carousel .item:first-child {
     top: auto;
