@@ -73,16 +73,16 @@ html {
 		<!-- END LOADING -->
 			
 		<!-- HEADER AREA START -->
-		<header class="header"  style="background-color:none;border:none;margin:0">
+		<header class="header"  style="background-color:transparent;border:none;margin:0" >
 			
 
 			<!-- Main Menu Area Begin -->
-			<div class="container"  style="background-color:none;margin-bottom:-200px">		
+			<div class="container"  style="background-color:none;margin-bottom:-200px" >		
 				<div class="main-menu-deputy">
 					<!-- Navbar visibility controls (<800px) -->
-					<div class="menu-when-collapse"></div>
-					<div class="menu-collapse-after-effect"></div>
-					<div class="logo">
+					<div class="menu-when-collapse" ></div>
+					<div class="menu-collapse-after-effect" ></div>
+					<div class="logo" >
 						<a href="index.html">
 							<img src="assets/images/logo/logo.png" style="z-index:99999999 !important" alt="Logo">
 						</a>
@@ -144,7 +144,7 @@ html {
 											</div>
 										</div>
 										<div class="section-heading if-bg-colorful">
-					<div class="main-title" style="margin-top:50px">
+					<div class="main-title" style="margin-top:100px">
 						<h2><span>Automação</span> Residencial</h2>
 						<strong></strong> 
 						
