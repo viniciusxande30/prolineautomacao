@@ -126,6 +126,22 @@ html {
 		</header><!-- /.header -->
 		<!-- /HEADER AREA END -->
 
+		<style>
+@media (max-width: 600px)
+{
+  .banner
+   {
+    margin-bottom:300px;
+   }
+}
+@media (min-width: 600px)
+{
+  .banner
+   {
+    margin-bottom:500px;
+   }
+}
+		</style>
 
 		<!-- MAIN SLIDER AND PROPERTY SEARCH AREA START-->
 		<section id="main-slider" class="carousel main-slider">
@@ -137,7 +153,7 @@ html {
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
-									<div class="slider-items" style="margin-top:0px;margin-bottom:600px;opacity:none">
+									<div class="slider-items banner" style="margin-top:0px;opacity:none">
 										<div class="animation animated-item-4">
 											
 											<div class="slider-head-style">
