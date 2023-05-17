@@ -228,13 +228,13 @@ html {
 				
 		<img id="Image-Maps-Com-image-maps-2023-05-17-010225" src="https://app.image-maps.com/m/private/0/4qso6lic6772t8277cbmv330ut_imagem.png" border="0" width="100%" height="630" orgWidth="1170" orgHeight="630" usemap="#image-maps-2023-05-17-010225" alt="" />
 <map name="image-maps-2023-05-17-010225" id="ImageMapsCom-image-maps-2023-05-17-010225">
-<area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="https://prolineautomacao.com.br/sonorizacao" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="https://prolineautomacao.com.br/rede" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
-<area  alt="Aspiração Central" title="Aspiração Central" href="https://prolineautomacao.com.br/aspiracao" shape="rect" coords="166,475,495,525" style="outline:none;" target="_self"     />
-<area  alt="Automação de Iluminação" title="Automação de Iluminação" href="https://prolineautomacao.com.br/iluminacao" shape="rect" coords="491,132,820,182" style="outline:none;" target="_self"     />
-<area  alt="Automação de Áudio e Vídeo" title="Automação de Áudio e Vídeo" href="https://prolineautomacao.com.br/audio-e-video" shape="rect" coords="759,196,1088,246" style="outline:none;" target="_self"     />
-<area  alt="Automação de Ar Condicionado e Persianas" title="Automação de Ar Condicionado e Persianas" href="https://prolineautomacao.com.br/ar-condicionado" shape="rect" coords="796,349,1125,399" style="outline:none;" target="_self"     />
-<area  alt="Cameras de Monitoramento e Fechaduras" title="Cameras de Monitoramento e Fechaduras" href="https://prolineautomacao.com.br/cameras" shape="rect" coords="748,493,1077,543" style="outline:none;" target="_self"     />
+<area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="https://prolineautomacao.com.br/contato" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
+<area  alt="" title="" href="https://prolineautomacao.com.br/contato" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
+<area  alt="Aspiração Central" title="Aspiração Central" href="https://prolineautomacao.com.br/contato" shape="rect" coords="166,475,495,525" style="outline:none;" target="_self"     />
+<area  alt="Automação de Iluminação" title="Automação de Iluminação" href="https://prolineautomacao.com.br/contato" shape="rect" coords="491,132,820,182" style="outline:none;" target="_self"     />
+<area  alt="Automação de Áudio e Vídeo" title="Automação de Áudio e Vídeo" href="https://prolineautomacao.com.br/contato" shape="rect" coords="759,196,1088,246" style="outline:none;" target="_self"     />
+<area  alt="Automação de Ar Condicionado e Persianas" title="Automação de Ar Condicionado e Persianas" href="https://prolineautomacao.com.br/contato" shape="rect" coords="796,349,1125,399" style="outline:none;" target="_self"     />
+<area  alt="Cameras de Monitoramento e Fechaduras" title="Cameras de Monitoramento e Fechaduras" href="https://prolineautomacao.com.br/contato" shape="rect" coords="748,493,1077,543" style="outline:none;" target="_self"     />
 <area shape="rect" coords="1168,628,1170,630" alt="Image Map" style="outline:none;" title="Image Map" href="https://www.image-maps.com/" />
 </map>
 
