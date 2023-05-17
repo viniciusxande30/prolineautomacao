@@ -77,14 +77,14 @@ html {
 			
 
 			<!-- Main Menu Area Begin -->
-			<div class="container"  style="background-color:none;margin-bottom:-200px" >		
+			<div class="container"  style="background-color:none;margin-bottom:0px" >		
 				<div class="main-menu-deputy">
 					<!-- Navbar visibility controls (<800px) -->
 					<div class="menu-when-collapse" ></div>
 					<div class="menu-collapse-after-effect" ></div>
 					<div class="logo" >
-						<a href="index.html">
-							<img src="assets/images/logo/logo.png" style="z-index:99999999 !important" alt="Logo">
+						<a href="{{url('/')}}">
+							<img src="assets/images/logo/logo.png" alt="Logo">
 						</a>
 					</div><!-- /.logo -->
 				</div><!-- /.main-menu-deputy -->
@@ -131,7 +131,7 @@ html {
 {
   .banner
    {
-    margin-bottom:300px;
+    margin-bottom:400px;
    }
 }
 @media (min-width: 600px)
