@@ -131,7 +131,7 @@ html {
 {
   .banner
    {
-    margin-bottom:400px;
+    margin-bottom:250px;
    }
 }
 @media (min-width: 600px)
