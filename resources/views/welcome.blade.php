@@ -388,7 +388,7 @@
 							<div class="member-hover">
 								<div class="member-info">
 									<h3>Saiba Mais</h3>
-									<a href="#">3 Vantagens de Automatizar sua Residência</a>
+									<a href="https://www.instagram.com/p/CrSDfmvOiSb/" target="_BLANK">3 Vantagens de Automatizar sua Residência</a>
 									<div class="member-social">
 										<ul>
 											
@@ -409,7 +409,7 @@
 							<div class="member-hover">
 								<div class="member-info">
 									<h3>Saiba Mais</h3>
-									<a href="#">Top 5 Dicas de Automação para a sua Casa</a>
+									<a href="https://www.instagram.com/p/Cro-3QkuLWs/" target="_BLANK">Top 5 Dicas de Automação para a sua Casa</a>
 									<div class="member-social">
 										<ul>
                                         <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
@@ -431,7 +431,7 @@
 									<a href="#">Projetos Especiais Personalizados</a>
 									<div class="member-social">
 										<ul>
-                                        <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/p/CrhVOgYOVsn/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -447,7 +447,7 @@
 							<div class="member-hover">
 								<div class="member-info">
 									<h3>Saiba Mais</h3>
-									<a href="#">Sobre a Pró Line Automação</a>
+									<a href="https://www.instagram.com/p/CrhUtrWOcrW/" target="_BLANK">Sobre a Pró Line Automação</a>
 									<div class="member-social">
 										<ul>
                                         <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
