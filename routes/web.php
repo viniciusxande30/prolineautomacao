@@ -13,6 +13,8 @@ use App\Http\Controllers\Controller;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [Controller::class, 'homeIndex'])->name('homeIndex');
+Route::get('/contato', function () {
+    return view('contato');
 });
+Route::post('/envio-cotacao',[Controller::class,'quotationApi'])->name('quotationApi');

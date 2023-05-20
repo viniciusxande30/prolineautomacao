@@ -1,65 +1,105 @@
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+.main-slider .carousel .item {
+    min-height:20px;
+}
+/* 
+.carousel-inner {
+	overflow:visible !important;
+} */
+</style>
+
 <body>
+	<!-- ALL SECTION INCLOSED TO THE WRAPPER -->
+	<div class="wrapper">
+		<!-- BEGIN LOADING -->
+		<div id="loader" class="loader">
+			<div class="implode">
+				<div class="implode-in">
+					<div id="cover" class="acting"> 
+						<span></span> 
+						<span></span> 
+						<span></span> 
+						<span></span> 
+						<span></span> 
+						<span></span> 
+						<span></span>
+					</div>
+				</div>
+			</div> <!-- /.implode -->
+		</div> <!-- /#loader -->
+		<!-- END LOADING -->
+			
+		<!-- HEADER AREA START -->
+		<header class="header"  style="background-color:transparent;border:none;margin:0" >
+			
 
-    <!-- search popup start-->
-    <div class="td-search-popup" id="td-search-popup">
-        <form action="index.html" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-    <!-- search popup end-->
-    <div class="body-overlay" id="body-overlay"></div>
+			<!-- Main Menu Area Begin -->
+			<div class="container"  style="background-color:none;margin-bottom:0px" >		
+				<div class="main-menu-deputy">
+					<!-- Navbar visibility controls (<800px) -->
+					<div class="menu-when-collapse" ></div>
+					<div class="menu-collapse-after-effect" ></div>
+					<div class="logo" >
+						<a href="{{url('/')}}">
+							<img src="assets/images/logo/logo.png" alt="Logo">
+						</a>
+					</div><!-- /.logo -->
+				</div><!-- /.main-menu-deputy -->
+				<div class="main-menu">
+					<div class="close-nav"></div> <!-- Close the menu for mobile -->				
+					<ul class="main-nav">
+						<li class="active"><a href="{{url('/')}}">Home</a></li>
+                        <li class="active"><a href="{{url('/')}}/#sobre-nos">Sobre Nós</a></li>
+                        <li class="active"><a href="{{url('/')}}/#servicos">Serviços</a></li>
+                        <li class="active"><a href="{{url('/')}}/#apresentacao">Apresentação</a></li>
+                        <li class="active"><a href="{{url('/')}}/contato">Contato</a></li>
+								
+					</ul><!-- /.main-nav -->
 
-    <!-- navbar start -->
-    <nav class="navbar navbar-area navbar-expand-lg">
-        <div class="container nav-container navbar-bg">
-            <div class="responsive-mobile-menu">
-                <button class="menu toggle-btn d-block d-lg-none" data-target="#itech_main_menu" 
-                aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="icon-left"></span>
-                    <span class="icon-right"></span>
-                </button>
-            </div>
-            <div class="logo">
-                <a href="{{url('/')}}"><img src="assets/img/logo.png" alt="img"  style="max-width: 300px"></a>
-            </div>
-            <div class="nav-right-part nav-right-part-mobile">
-                <a class="search-bar-btn" href="#">
-                    <i class="fa fa-search"></i>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="itech_main_menu">
-                <ul class="navbar-nav menu-open text-lg-end">
-                    <li class="">
-                        <a href="{{url('/')}}">Página Inicial</a>
-                       
-                    </li>
-                    <li class="">
-                        <a href="{{url('/')}}/#servicos">Serviços</a>
-                        
-                    </li>
-                    <li class="">
-                        <a href="{{url('/')}}/#cases">Cases de Sucesso</a>
-                        
-                    </li>
-                    <!-- <li class="menu-item-has-children">
-                        <a href="#">Nosso Blog</a>
-                       
-                    </li> -->
-                    <li><a href="{{url('/')}}/contato">Mantenha Contato</a></li>
-                </ul>
-            </div>
-            <div class="nav-right-part nav-right-part-desktop align-self-center">
-                <a class="navbar-phone" href="https://wa.me/5511958388091?text=Ol%C3%A1!%20Quero%20conhecer%20mais%20sobre%20a%20Mental4Care">
-                    <span class="icon">
-                        <img src="assets/img/icon/1.png" alt="img">
-                    </span>
-                    <span>Duvidas?</span>
-                    <h5>(11) 95838-8091</h5>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <!-- navbar end -->
+					<!--  Header Top visibility controls (=<991px) -->
+					<div class="header-top visible-xs visible-sm">
+						<div class="visible-xs visible-sm">
+							<div class="social-to">
+								<ul>
+									<li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div> <!-- /.social-to -->
+						</div> <!-- /.col- -->
+						<div class="visible-xs visible-sm">
+							<div class="contact-to">
+								<div class="contact-text">
+                                <ul>
+										<li><a href="#"><i class="fa fa-map-marker"></i>São Paulo - SP</a></li>
+										<li><a href="#"><i class="fa fa-mobile-phone"></i>+55 11 97959-5047</a></li>
+										<li><a href="#"><i class="fa fa-clock-o"></i>Segunda - Sexta 10:00 - 18:00</a></li>
+									</ul>
+								</div>
+							</div> <!-- /.contact-to -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.header-top -->
+				</div><!-- /.main-menu -->
+			</div><!-- /.container -->
+			<!-- Main Menu Area End -->
+		</header><!-- /.header -->
+		<!-- /HEADER AREA END -->
+
+		<style>
+@media (max-width: 600px)
+{
+  .banner
+   {
+    margin-bottom:250px;
+   }
+}
+@media (min-width: 600px)
+{
+  .banner
+   {
+    margin-bottom:500px;
+   }
+}
+		</style>

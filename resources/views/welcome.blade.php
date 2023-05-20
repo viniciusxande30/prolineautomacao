@@ -1,148 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Pro Line Automação - Projetos Especiais</title>	
-
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="assets/images/favicon/dream-favicon.png" />
-	<link rel="apple-touch-icon" href="assets/images/favicon/dream-favicon.png" />
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Raleway:300,400,500,600,700,800,900|Roboto:300,400,500,700" rel="stylesheet">
-	
-	<!-- =>> All Stylesheet <<= -->
-	<!-- Bootstrap v3.3.6 Core CSS-->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />  
-	<!-- Owl Carousel 2 -->
-	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.css" />
-	<!-- jquery-ui-1.12.0 CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui-css/jquery-ui-1.12.0.min.css" />
-	<!-- Noice Slider (Price Range) -->
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery.nouislider.min.css" />
-	<!-- Animate 3.5.1 CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
-	<!--  Font Awesome 4.6.3 Icons -->
-	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
-	<!-- Flat Icons -->
-	<link rel="stylesheet" type="text/css" href="assets/flaticons/font/flaticon.css" />
-
-	<!-- Custom/Main Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/header-menu-responsive.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-
-</head>
-
-<style>
-html {
-  scroll-behavior: smooth;
-}
-.main-slider .carousel .item {
-    min-height:20px;
-}
-.carousel-inner {
-	overflow:visible !important;
-}
-</style>
-
-<body>
-	<!-- ALL SECTION INCLOSED TO THE WRAPPER -->
-	<div class="wrapper">
-		<!-- BEGIN LOADING -->
-		<div id="loader" class="loader">
-			<div class="implode">
-				<div class="implode-in">
-					<div id="cover" class="acting"> 
-						<span></span> 
-						<span></span> 
-						<span></span> 
-						<span></span> 
-						<span></span> 
-						<span></span> 
-						<span></span>
-					</div>
-				</div>
-			</div> <!-- /.implode -->
-		</div> <!-- /#loader -->
-		<!-- END LOADING -->
-			
-		<!-- HEADER AREA START -->
-		<header class="header"  style="background-color:transparent;border:none;margin:0" >
-			
-
-			<!-- Main Menu Area Begin -->
-			<div class="container"  style="background-color:none;margin-bottom:0px" >		
-				<div class="main-menu-deputy">
-					<!-- Navbar visibility controls (<800px) -->
-					<div class="menu-when-collapse" ></div>
-					<div class="menu-collapse-after-effect" ></div>
-					<div class="logo" >
-						<a href="{{url('/')}}">
-							<img src="assets/images/logo/logo.png" alt="Logo">
-						</a>
-					</div><!-- /.logo -->
-				</div><!-- /.main-menu-deputy -->
-				<div class="main-menu">
-					<div class="close-nav"></div> <!-- Close the menu for mobile -->				
-					<ul class="main-nav">
-						<li class="active"><a href="{{url('/')}}">Home</a></li>
-                        <li class="active"><a href="{{url('/')}}/#sobre-nos">Sobre Nós</a></li>
-                        <li class="active"><a href="{{url('/')}}/#servicos">Serviços</a></li>
-                        <li class="active"><a href="{{url('/')}}/#apresentacao">Apresentação</a></li>
-                        <li class="active"><a href="{{url('/')}}/#contato">Contato</a></li>
-								
-					</ul><!-- /.main-nav -->
-
-					<!--  Header Top visibility controls (=<991px) -->
-					<div class="header-top visible-xs visible-sm">
-						<div class="visible-xs visible-sm">
-							<div class="social-to">
-								<ul>
-									<li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div> <!-- /.social-to -->
-						</div> <!-- /.col- -->
-						<div class="visible-xs visible-sm">
-							<div class="contact-to">
-								<div class="contact-text">
-                                <ul>
-										<li><a href="#"><i class="fa fa-map-marker"></i>São Paulo - SP</a></li>
-										<li><a href="#"><i class="fa fa-mobile-phone"></i>+55 11 97959-5047</a></li>
-										<li><a href="#"><i class="fa fa-clock-o"></i>Segunda - Sexta 10:00 - 18:00</a></li>
-									</ul>
-								</div>
-							</div> <!-- /.contact-to -->
-						</div> <!-- /.col- -->
-					</div> <!-- /.header-top -->
-				</div><!-- /.main-menu -->
-			</div><!-- /.container -->
-			<!-- Main Menu Area End -->
-		</header><!-- /.header -->
-		<!-- /HEADER AREA END -->
-
-		<style>
-@media (max-width: 600px)
-{
-  .banner
-   {
-    margin-bottom:250px;
-   }
-}
-@media (min-width: 600px)
-{
-  .banner
-   {
-    margin-bottom:500px;
-   }
-}
-		</style>
-
+@include('includes.top')
+@include('includes.header')
 		<!-- MAIN SLIDER AND PROPERTY SEARCH AREA START-->
 		<section id="main-slider" class="carousel main-slider">
 			<div class="carousel slide">
@@ -228,18 +85,34 @@ html {
 				
 		<img id="Image-Maps-Com-image-maps-2023-05-17-010225" src="{{url('/')}}/assets/images/servicos.png" border="0" width="100%" height="630" orgWidth="1170" orgHeight="630" usemap="#image-maps-2023-05-17-010225" alt="" />
 <map name="image-maps-2023-05-17-010225" id="ImageMapsCom-image-maps-2023-05-17-010225">
-<area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="https://prolineautomacao.com.br/contato" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="https://prolineautomacao.com.br/contato" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
-<area  alt="Aspiração Central" title="Aspiração Central" href="https://prolineautomacao.com.br/contato" shape="rect" coords="166,475,495,525" style="outline:none;" target="_self"     />
-<area  alt="Automação de Iluminação" title="Automação de Iluminação" href="https://prolineautomacao.com.br/contato" shape="rect" coords="491,132,820,182" style="outline:none;" target="_self"     />
-<area  alt="Automação de Áudio e Vídeo" title="Automação de Áudio e Vídeo" href="https://prolineautomacao.com.br/contato" shape="rect" coords="759,196,1088,246" style="outline:none;" target="_self"     />
-<area  alt="Automação de Ar Condicionado e Persianas" title="Automação de Ar Condicionado e Persianas" href="https://prolineautomacao.com.br/contato" shape="rect" coords="796,349,1125,399" style="outline:none;" target="_self"     />
-<area  alt="Cameras de Monitoramento e Fechaduras" title="Cameras de Monitoramento e Fechaduras" href="https://prolineautomacao.com.br/contato" shape="rect" coords="748,493,1077,543" style="outline:none;" target="_self"     />
+<area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="{{url('/')}}/contato" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
+<area  alt="" title="" href="{{url('/')}}/contato" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
+<area  alt="Aspiração Central" title="Aspiração Central" href="{{url('/')}}/contato" shape="rect" coords="166,475,495,525" style="outline:none;" target="_self"     />
+<area  alt="Automação de Iluminação" title="Automação de Iluminação" href="{{url('/')}}/contato" shape="rect" coords="491,132,820,182" style="outline:none;" target="_self"     />
+<area  alt="Automação de Áudio e Vídeo" title="Automação de Áudio e Vídeo" href="{{url('/')}}/contato" shape="rect" coords="759,196,1088,246" style="outline:none;" target="_self"     />
+<area  alt="Automação de Ar Condicionado e Persianas" title="Automação de Ar Condicionado e Persianas" href="{{url('/')}}/contato" shape="rect" coords="796,349,1125,399" style="outline:none;" target="_self"     />
+<area  alt="Cameras de Monitoramento e Fechaduras" title="Cameras de Monitoramento e Fechaduras" href="{{url('/')}}/contato" shape="rect" coords="748,493,1077,543" style="outline:none;" target="_self"     />
 <area shape="rect" coords="1168,628,1170,630" alt="Image Map" style="outline:none;" title="Image Map" href="https://www.image-maps.com/" />
 </map>
 
 </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -263,7 +136,7 @@ html {
 								<p>A automação de iluminação permite o controle das luzes de uma residência de forma inteligente</p>
 							</div>
 							<div class="renewal-btn">
-								<a href="#" class="fresh-btn">Entrar em Contato</a>
+								<a href="{{url('/')}}" class="fresh-btn">Entrar em Contato</a>
 							</div>
 						</div> <!-- /.renewal-items -->
 					</div> <!-- /.col- -->
@@ -273,13 +146,13 @@ html {
 								<i class="flaticon-burj-al-arab-1"></i>
 							</div>
 							<div class="title">
-								<h3><a href="#">Automação de climatização</a></h3>
+								<h3><a href="{{url('/')}}">Automação de climatização</a></h3>
 							</div>
 							<div class="content">
 								<p>Com a automação de climatização, é possível controlar o ar-condicionado, o aquecedor e a ventilação de forma centralizada</p>
 							</div>
 							<div class="renewal-btn">
-								<a href="#" class="fresh-btn">Entrar em Contato</a>
+								<a href="{{url('/')}}" class="fresh-btn">Entrar em Contato</a>
 							</div>
 						</div> <!-- /.renewal-items -->
 					</div> <!-- /.col- -->
@@ -289,13 +162,13 @@ html {
 								<i class="flaticon-mansion"></i>
 							</div>
 							<div class="title">
-								<h3><a href="#">Automação de áudio e vídeo</a></h3>
+								<h3><a href="{{url('/')}}">Automação de áudio e vídeo</a></h3>
 							</div>
 							<div class="content">
 								<p>A automação de áudio e vídeo permite o controle de equipamentos de som e imagem de forma integrada</p>
 							</div>
 							<div class="renewal-btn">
-								<a href="#" class="fresh-btn">Entrar em Contato</a>
+								<a href="{{url('/')}}" class="fresh-btn">Entrar em Contato</a>
 							</div>
 						</div> <!-- /.renewal-items -->
 					</div> <!-- /.col- -->
@@ -305,13 +178,13 @@ html {
 								<i class="flaticon-cityscape"></i>
 							</div>
 							<div class="title">
-								<h3><a href="#">Automação de segurança</a></h3>
+								<h3><a href="{{url('/')}}">Automação de segurança</a></h3>
 							</div>
 							<div class="content">
 								<p>A automação de segurança permite o monitoramento e controle de sistemas de câmeras, alarmes, sensores e fechaduras</p>
 							</div>
 							<div class="renewal-btn">
-								<a href="#" class="fresh-btn">Entrar em Contato</a>
+								<a href="{{url('/')}}" class="fresh-btn">Entrar em Contato</a>
 							</div>
 						</div> <!-- /.renewal-items -->
 					</div> <!-- /.col- -->
@@ -347,7 +220,7 @@ html {
 								<h3>Automação Residencial | Projetos Especiais</h3>
 								<p>Com uma equipe altamente capacitada e experiente, a empresa oferece soluções personalizadas de automação residencial que visam melhorar o conforto, a segurança e a eficiência energética dos ambientes residenciais.</p>
 								<div class="room-feature-btn">
-									<a href="#" class="dream-btn">Entre em Contato</a>
+									<a href="{{url('/')}}/contato" class="dream-btn">Entre em Contato</a>
 								</div>
 							</div> <!-- /.feature-content -->
 						</div> <!-- /.col- -->
@@ -596,15 +469,15 @@ html {
 				<div class="features-items">
 					<ul>
 						<li class="wow fadeInLeft">
-							<a href="#"><i class="flaticon-command"></i></a>
+							<i class="flaticon-command"></i>
 							<h5>Converse com Nosso Time</h5>
 						</li>
 						<li class="wow zoomIn">
-							<a href="#"><i class="flaticon-shield"></i></a>
+							<i class="flaticon-shield"></i>
 							<h5>Trabalho Qualificado</h5>
 						</li>
 						<li class="wow zoomIn">
-							<a href="#"><i class="flaticon-support"></i></a>
+							<i class="flaticon-support"></i>
 							<h5>Suporte de Segunda a Sexta</h5>
 						</li>
 						
@@ -614,157 +487,4 @@ html {
 		</section> <!-- /.features -->
 		<!-- /FEATURES AREA END -->
 																																																														 
-		<!-- FOOTER AREA START -->
-		<footer class="footer" id="footer">
-			<div class="footer-widget-area">
-				<div class="container">	
-					<div class="footer-widgets">
-						<div class="row">
-							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-								<div class="single-widget">
-									<div class="widget-heading info-heading">
-										<a href="index.html" class="logo-footer">
-											<img src="assets/images/logo/logo.png" alt="LogoFooter">
-										</a>
-									</div>
-									<div class="widget-info">
-										<p>
-                                        A Pró Line Automação é uma empresa especializada em automação residencial, com sede em São Paulo e atendimento em diversas regiões do país.
-                                        </p>
-									</div> <!-- /.widget-info -->
-								</div> <!-- /.single-widget -->
-							</div> <!-- /.col- -->
-							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-								<div class="single-widget">
-									<div class="widget-heading">
-										<h3>Links Principais</h3>
-									</div>
-									<div class="widget-link">
-										<ul>
-											<li><a href="#">Home</a></li>
-											<li><a href="#">Sobre Nós</a></li>
-											<li><a href="#">Serviços</a></li>
-											<li><a href="#">Apresentação</a></li>
-											<li><a href="#">Contato</a></li>
-										</ul>
-									</div> <!-- /.widget-link -->
-								</div> <!-- /.single-widget -->
-							</div> <!-- /.col- -->
-							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-								<div class="single-widget">
-									<div class="widget-heading">
-										<h3>Outros Links</h3>
-									</div>
-									<div class="widget-link">
-										<ul>
-											<li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK">Confira nosso Instagram</a></li>
-										</ul>
-									</div> <!-- /.widget-link -->
-								</div> <!-- /.single-widget -->
-							</div> <!-- /.col- -->
-							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-								<div class="single-widget">
-									<div class="widget-heading">
-										<h3>Quics Links</h3>
-									</div>
-									<div class="widget-address">
-										<address>
-											<ul>
-												<li>
-													<div class="address-left">
-														<p>Onde Atuamos</p>
-													</div>
-													<div class="address-right">
-														<p>São Paulo - SP e Região</p>
-													</div>
-												</li>
-												<li>
-													<div class="address-left">
-														<p>Telefone:</p>
-													</div>
-													<div class="address-right">
-														<p>
-                                                        +55 11 97959-5047 <br />
-														
-														</p>
-													</div>
-												</li>
-												<li>
-													<div class="address-social">
-														<ul>
-															
-															<li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
-															
-														</ul>
-													</div>
-												</li>
-											</ul>
-										</address>
-									</div> <!-- /.widget-address -->
-								</div> <!-- /.single-widget -->
-							</div> <!-- /.col- -->
-
-						</div> <!-- /.row -->  
-					</div> <!-- /.footer-widgets -->
-				</div> <!-- /.container -->
-			</div> <!-- /.footer-widget-area -->
-			<div class="copyright-designer">
-				<div class="container">	
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<div class="copyright">
-								<p>&copy; Copyright 2023 Pro Line Automação, Todos os Direitos Reservados</p>
-							</div> <!-- /.copyright -->
-						</div> <!-- /.col- -->
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<div class="designer">
-								<p>
-									Desenvolvido por 
-									<i class="fa fa-heart"></i> by 
-									<a href="https://rsweb.com.br" target="_blank">RS Web</a>
-								</p>
-							</div> <!-- /.designer -->
-						</div> <!-- /.col- -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</div> <!-- /.copyright-designer -->
-
-			<!-- Go to the page top  -->
-			<div class="go-top">
-				<a href="#" class="back-to-top dream-btn">
-					<i class="fa fa-angle-up"></i>
-				</a>
-			</div> <!-- /.go-top -->
-		</footer> <!-- /.footer -->
-		<!-- /FOOTER AREA END -->
-	</div> <!-- /.wrapper -->
-	<!-- ALL SECTION INCLOSED TO THE WRAPPER -->
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugin and others plugins) -->
-	<script type="text/javascript" src="assets/js/jquery-2.2.3.min.js"></script>
-	<!-- jquery-ui-1.12.0 -->
-	<script type="text/javascript" src="assets/js/jquery-ui/jquery-ui-1.12.0.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<!-- Bootstrap v3.3.6 -->
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<!-- Owl Carousel 2 -->
-	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-	<!-- Owl Carousel v1.3.2 -->
-	<script type="text/javascript" src="assets/js/owl-1.3.2/owl.carousel.min.js"></script>
-	<!-- WOW - v1.1.3 -->
-	<script type="text/javascript" src="assets/js/wow.min.js"></script>
-	<!-- Typer Js -->
-	<script type="text/javascript" src="assets/js/typed.min.js"></script>
-	<!-- Noice Slider (Price Range) -->
-	<script src="assets/js/jquery.nouislider.min.js"></script> 
-	<!-- jQuery Mobile Library -->
-	<script type="text/javascript" src="assets/js/jquery.mobile.custom.min.js"></script>  
-	<!-- Conatact Map -->
-	<script type="text/javascript" src="assets/js/map-script.js"></script>
-
-	<!-- Custom/Main Script here -->
-	<script type="text/javascript" src="assets/js/menu.js"></script>
-	<script type="text/javascript" src="assets/js/custom.js"></script>
-
-</body>
-</html>
+@include('includes.footer')
