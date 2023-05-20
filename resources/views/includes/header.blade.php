@@ -93,6 +93,10 @@ html {
   .banner
    {
     margin-bottom:250px;
+    
+   }
+   .servicos{
+    height:400px;
    }
 }
 @media (min-width: 600px)
@@ -100,6 +104,9 @@ html {
   .banner
    {
     margin-bottom:500px;
+   }
+   .servicos{
+    height:630px;
    }
 }
 		</style>

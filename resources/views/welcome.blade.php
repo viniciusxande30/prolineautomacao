@@ -83,7 +83,7 @@
 		<section class="menu_2" id="servicos"  style="width:100%;margin:0 auto">
 		
 				
-		<img id="Image-Maps-Com-image-maps-2023-05-17-010225" src="{{url('/')}}/assets/images/servicos.png" border="0" width="100%" height="630" orgWidth="1170" orgHeight="630" usemap="#image-maps-2023-05-17-010225" alt="" />
+		<img id="Image-Maps-Com-image-maps-2023-05-17-010225" class="servicos" src="{{url('/')}}/assets/images/servicos.png" border="0" width="100%" orgWidth="1170" usemap="#image-maps-2023-05-17-010225" alt="" />
 <map name="image-maps-2023-05-17-010225" id="ImageMapsCom-image-maps-2023-05-17-010225">
 <area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="{{url('/')}}/contato" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
 <area  alt="" title="" href="{{url('/')}}/contato" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
