@@ -428,7 +428,7 @@
 							<div class="member-hover">
 								<div class="member-info">
 									<h3>Saiba Mais</h3>
-									<a href="https://www.instagram.com/p/CrhVOgYOVsn/">Projetos Especiais Personalizados</a>
+									<a href="https://www.instagram.com/p/CrhVOgYOVsn/" target="_BLANK">Projetos Especiais Personalizados</a>
 									<div class="member-social">
 										<ul>
                                         <li><a href="https://www.instagram.com/p/CrhVOgYOVsn/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
