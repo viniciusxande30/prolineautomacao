@@ -19,9 +19,9 @@ class Controller extends BaseController
     public function quotationApi(){
     
     Mail::raw('Nova Cotação Pro Line | '.'Nome: '.$_POST['name'].' - Telefone: '.$_POST['phone'].'- E-mail : '.$_POST['email'].'- Mensagem : '.$_POST['msg'], function ($message){
-      $message->to('comercial@rsweb.com.br')
-    ->subject('Nova Cotação da RS Web')
-    ->from('comercial@rsweb.com.br');
+      $message->to('shoiti@prolineautomacao.com.br')
+    ->subject('Nova Cotação Pro Line Automação')
+    ->from('shoiti@prolineautomacao.com.br');
     });
   
       return redirect()->route('homeIndex');
