@@ -103,7 +103,7 @@
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 							<div class="designer">
 								<p>
-									Desenvolvido por com
+									Desenvolvido com
 									<i class="fa fa-heart"></i> por
 									<a href="https://rsweb.com.br" target="_blank">RS Web</a>
 								</p>
