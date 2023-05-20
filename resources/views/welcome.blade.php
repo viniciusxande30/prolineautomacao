@@ -392,7 +392,7 @@
 									<div class="member-social">
 										<ul>
 											
-                                        <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/p/CrSDfmvOiSb/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
 
 										</ul>
 									</div>
@@ -412,7 +412,7 @@
 									<a href="https://www.instagram.com/p/Cro-3QkuLWs/" target="_BLANK">Top 5 Dicas de Automação para a sua Casa</a>
 									<div class="member-social">
 										<ul>
-                                        <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/p/Cro-3QkuLWs/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -428,7 +428,7 @@
 							<div class="member-hover">
 								<div class="member-info">
 									<h3>Saiba Mais</h3>
-									<a href="#">Projetos Especiais Personalizados</a>
+									<a href="https://www.instagram.com/p/CrhVOgYOVsn/">Projetos Especiais Personalizados</a>
 									<div class="member-social">
 										<ul>
                                         <li><a href="https://www.instagram.com/p/CrhVOgYOVsn/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
@@ -450,7 +450,7 @@
 									<a href="https://www.instagram.com/p/CrhUtrWOcrW/" target="_BLANK">Sobre a Pró Line Automação</a>
 									<div class="member-social">
 										<ul>
-                                        <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/p/CrhUtrWOcrW/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
 										</ul>
 									</div>
 								</div>
