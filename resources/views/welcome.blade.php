@@ -257,6 +257,18 @@
                     <div id="nivoSlider" class="slides">
 
                         <img src="assets/images/slider/h2-sl1.jpg" alt="" title="#slide-1" />
+                        <div class="nivo-caption" style="display: block;">
+                        <div class="content-part" style="background-color:transparent">
+                            <div class="container custom2">
+                                <div class="slider-des">
+                                    <h1 class="sl-title" style="opacity:0.8">Viva a Experiência</h1>
+                                </div>
+                                <div class="slider-bottom ">
+                                    <a class="readon project" href="{{url('/')}}/#servicos"><div class="text-btn"><span style="opacity:0.8">Projetos Especiais</span></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
 
                 </div>
