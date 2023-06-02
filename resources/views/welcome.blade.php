@@ -196,91 +196,23 @@
                             </a>
                         </div>
                         <ul class="nav-menu">
-                            <li class="menu-item-has-children current-menu-item">
-                                <a href="index.html">Home</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item-has-children current-menu-item">
-                                        <a href="#">Multipages</a>
-                                        <ul class="sub-menu">
-                                            <li class="active"><a href="index.html">Home One</a></li>
-                                            <li><a href="index2.html">Home Two</a></li>
-                                            <li><a href="index3.html">Home Three</a></li>
-                                            <li><a href="index4.html">Home Four</a></li>
-                                        </ul> 
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Onepages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="onepage1.html">Onepage One</a></li>
-                                            <li><a href="onepage2.html">Onepage Two</a></li>
-                                            <li><a href="onepage3.html">Onepage Three</a></li>
-                                            <li><a href="onepage4.html">Onepage Four</a></li>
-                                        </ul>  
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Pages</a>                                                        
-                                <ul class="sub-menu">
-                                    <li><a href="about.html">About</a></li>                                                            
-                                    <li class="last-item menu-item-has-children">
-                                        <a href="#">Team</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="team.html">Team</a> </li>
-                                            <li><a href="team-single.html">Team Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="pricing-table.html">Pricing Table</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="services.html">Services</a>
-                                <ul class="sub-menu">
-                                    <li><a href="architecture.html">Architecture</a></li>
-                                    <li><a href="interior-design.html">Interior Design</a></li>
-                                    <li><a href="renovation.html">Renovation</a></li>
-                                    <li><a href="construction.html">Construction</a></li>
-                                    <li><a href="planning.html">Planning</a></li>
-                                    <li><a href="3d-animation.html">3D Animation</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Portfolo</a>
-                                <ul class="sub-menu">
-                                    <li><a href="portfolio1.html">Portfolio One</a></li>
-                                    <li><a href="portfolio2.html">Portfolio Two</a></li>
-                                    <li><a href="portfolio3.html">Portfolio Three</a></li>
-                                    <li><a href="portfolio4.html">Portfolio Four</a></li>
-                                    <li class="last-item menu-item-has-children">
-                                        <a href="#">Portfolio Single</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="standard-style.html">Standard Style</a> </li>
-                                            <li><a href="slider-style.html">Slider Style</a> </li>
-                                            <li><a href="gallery-style.html">Gallery Style</a> </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-single.html">Shop Single</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">checkout</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul> <!-- //.nav-menu -->
+                                                    <li class="menu-item-has-children  current-menu-item">
+                                                        <a href="#home">Home</a>
+                                                    </li>
+                                                    <li class="menu-item-has-children">
+                                                        <a href="#sobre-nos">Sobre Nós</a>                                                        
+                                                       
+                                                    </li>
+                                                    <li>
+                                                        <a href="#servicos">Serviços</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#apresentacao">Apresentação</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#contato">Contato</a>
+                                                    </li>
+                                                </ul> <!-- //.nav-menu -->
                         <div class="canvas-contact">
                               <div class="address-area">
                                   <div class="address-list">
@@ -288,8 +220,8 @@
                                           <i class="flaticon-location"></i>
                                       </div>
                                       <div class="info-content">
-                                          <h4 class="title">Address</h4>
-                                          <em>05 kandi BR. New York</em>
+                                          <h4 class="title">Atendimento</h4>
+                                          <em>Atendemos Todas as Regiões</em>
                                       </div>
                                   </div>
                                   <div class="address-list">
@@ -297,8 +229,8 @@
                                           <i class="flaticon-email"></i>
                                       </div>
                                       <div class="info-content">
-                                          <h4 class="title">Email</h4>
-                                          <em><a href="mailto:support@rstheme.com">support@rstheme.com</a></em>
+                                          <h4 class="title">E-mail</h4>
+                                          <em><a href="mailto:shoiti@prolineautomacao.com.br">shoiti@prolineautomacao.com.br</a></em>
                                       </div>
                                   </div>
                                   <div class="address-list">
@@ -306,8 +238,8 @@
                                           <i class="flaticon-call"></i>
                                       </div>
                                       <div class="info-content">
-                                          <h4 class="title">Phone</h4>
-                                          <em>+019988772</em>
+                                          <h4 class="title">Telefone</h4>
+                                          <em>+55 11 97959-5047</em>
                                       </div>
                                   </div>
                               </div>
