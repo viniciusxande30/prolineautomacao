@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="shortcut icon" type="image/x-icon" href="{{url('/')}}/assets/images/fav.png">
+        <link rel="shortcut icon" type="image/x-icon" href="{{url('/')}}/assets/images/off2.jpg">
         <!-- Bootstrap v4.4.1 css -->
         <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/bootstrap.min.css">
         <!-- font-awesome css -->
