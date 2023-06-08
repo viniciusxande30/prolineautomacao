@@ -15,7 +15,7 @@
                    <div class="row">
                        <div class="col-lg-8 md-mb-50">
                            <div class="services-img">
-                               <img src="assets/images/services/services-single/1.jpg" alt="">
+                               <img src="assets/images/services/services-single/aspiracao.jpg" alt="">
                            </div>
                            <h2 class="mt-34">Aspiração Central</h2>
                            

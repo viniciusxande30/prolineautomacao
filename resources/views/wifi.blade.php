@@ -15,7 +15,7 @@
                    <div class="row">
                        <div class="col-lg-8 md-mb-50">
                            <div class="services-img">
-                               <img src="assets/images/services/services-single/1.jpg" alt="">
+                               <img src="assets/images/services/services-single/wifi.jpg" alt="">
                            </div>
                            <h2 class="mt-34">Rede Estruturada e Wi-Fi</h2>
                            

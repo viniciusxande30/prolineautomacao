@@ -241,7 +241,7 @@
                     </div>
                     <div class="project-item">
                         <div class="project-img">
-                            <a href="slider-style.html"><img src="assets/images/project/style2/2.jpg" alt="Project"></a>
+                            <a href="{{url('/')}}/hometheater"><img src="assets/images/project/style2/2.jpg" alt="Project"></a>
                         </div>
                         <div class="project-content">
                             <div class="vertical-middle">
@@ -253,7 +253,7 @@
                     </div>
                     <div class="project-item">
                         <div class="project-img">
-                            <a href="slider-style.html"><img src="assets/images/project/style2/3.jpg" alt="Project"></a>
+                            <a href="{{url('/')}}/sonorizacao"><img src="assets/images/project/style2/3.jpg" alt="Project"></a>
                         </div>
                         <div class="project-content">
                             <div class="vertical-middle">
@@ -265,7 +265,7 @@
                     </div>
                     <div class="project-item">
                         <div class="project-img">
-                            <a href="slider-style.html"><img src="assets/images/project/style2/4.jpg" alt="Project"></a>
+                            <a href="{{url('/')}}/wifi"><img src="assets/images/project/style2/4.jpg" alt="Project"></a>
                         </div>
                         <div class="project-content">
                             <div class="vertical-middle">
