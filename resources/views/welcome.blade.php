@@ -1,132 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br"> 
-    <head>
-        <!-- meta tag -->
-        <meta charset="utf-8">
-        <title>Pro Line - Automação Residencial</title>
-        <meta name="description" content="">
-        <!-- responsive tag -->
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- favicon -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="shortcut icon" type="image/x-icon" href="{{url('/')}}/assets/images/off2.jpg">
-        <!-- Bootstrap v4.4.1 css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/bootstrap.min.css">
-        <!-- font-awesome css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/font-awesome.min.css">
-        <!-- flaticon css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/fonts/flaticon.css">
-        <!-- animate css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/animate.css">
-        <!-- owl.carousel css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/owl.carousel.css">
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/slick.css">
-        <!-- off canvas css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/off-canvas.css">
-        <!-- magnific popup css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/magnific-popup.css">
-        <!-- Main Menu css -->
-        <link rel="stylesheet" href="{{url('/')}}/assets/css/rsmenu-main.css">
-        <!-- nivo slider CSS -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/inc/custom-slider/css/nivo-slider.css">
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/inc/custom-slider/css/preview.css">
-        <!-- spacing css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/rs-spacing.css">
-        <!-- style css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/style.css"> <!-- This stylesheet dynamically changed from style.less -->
-        <!-- responsive css -->
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/responsive.css">
-        
-    </head>
-    <body class="defult-home">
-        <style>
-            html{
-                scroll-behavior: smooth;
-            }
-        </style>
-        <div class="offwrap"></div>
+@include('includes.top')
+<style>
+@media only screen and (max-width: 1366px){
+    .rs-services.style2 .rs-addon-number .addon-wrap {
+    padding: 50px 40px 60px 40px;
+    height: 400px;
+}
+}
 
-        <!--Preloader start here-->
-        <div id="archtek-load">
-            <div class="archtek-loader la-2x">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div> 
-        <!--Preloader area end here-->
-     
-		<!-- Main content Start -->
-        <div class="main-content" id="home">
-
-            <!--Full width header Start-->
-            <div class="full-width-header">
-                <!--Header Start-->
-                <header id="rs-header" class="rs-header home2-header-style1 header-transparent">
-                    <!-- Menu Start -->
-                    <div class="menu-area menu-sticky">
-                        <div class="container-fluid">
-                            <div class="row-table">
-                                <div class="col-cell header-logo">                                  
-                                    <div class="logo-area">
-                                        <a href="index.html">
-                                            <img src="assets/images/logo-lite.png" alt="logo">  
-                                            <img class="sticky-logo" src="assets/images/logo.png" alt="logo">  
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-cell">
-                                    <div class="rs-menu-area">
-                                        <div class="main-menu">
-                                            <nav class="rs-menu hidden-md">
-                                                <ul class="nav-menu">
-                                                    <li class="menu-item-has-children  current-menu-item">
-                                                        <a href="#home">Home</a>
-                                                    </li>
-                                                    <li class="menu-item-has-children">
-                                                        <a href="#sobre-nos">Sobre Nós</a>                                                        
-                                                       
-                                                    </li>
-                                                    <li>
-                                                        <a href="#servicos">Serviços</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#apresentacao">Apresentação</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#contato">Contato</a>
-                                                    </li>
-                                                </ul> <!-- //.nav-menu -->
-                                            </nav>
-                                        </div> <!-- //.main-menu -->
-                                    </div>
-                                </div>
-                                <div class="col-cell">
-                                    <div class="expand-btn-inner">                                       
-                                        <ul>
-                                            <li class="contact-phone">
-                                                <i class="flaticon-call"></i>                                      
-                                                <a href="tel:+55 11 97959-5047"> +55 11 97959-5047</a>                   
-                                            </li>
-                                            
-                                            <li class="humburger">
-                                                <a id="nav-expander" class="nav-expander bar" href="#">
-                                                    <div class="bar">
-                                                        <span class="dot1"></span>
-                                                        <span class="dot2"></span>
-                                                        <span class="dot3"></span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Menu End -->
-
+</style>
                     <!-- Canvas Menu start -->
                     <nav class="right_menu_togle hidden-md">
                         <div class="close-btn">
@@ -138,7 +19,7 @@
                             </a>
                         </div>
                         <div class="canvas-logo">
-                            <a href="index.html"><img src="assets/images/logo-lite.png" alt="logo"></a>
+                            <a href="{{url('/')}}"><img src="assets/images/logo-lite.png" alt="logo"></a>
                         </div>
                         <div class="offcanvas-text">
                             <p>Com uma equipe altamente capacitada e experiente, a empresa oferece soluções personalizadas de automação residencial que visam melhorar o conforto, a segurança e a eficiência energética dos ambientes residenciais.</p>
@@ -178,7 +59,7 @@
                                 </div>
                             </div>
                             <ul class="social">
-                                <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/prolineautomacao/" target="_BLANK"> <i class="fa fa-instagram"></i></a></li>
                                
                             </ul>
                         </div>
@@ -260,9 +141,7 @@
                         <div class="nivo-caption" style="display: block;">
                         <div class="content-part" style="background-color:transparent">
                             <div class="container custom2">
-                                <div class="slider-des">
-                                    <h1 class="sl-title" style="opacity:0.8">Viva a Experiência</h1>
-                                </div>
+                                
                                 <div class="slider-bottom ">
                                     <a class="readon project" href="{{url('/')}}/#servicos"><div class="text-btn"><span style="opacity:0.8">Projetos Especiais</span></div></a>
                                 </div>
@@ -292,19 +171,10 @@
                                     <span class="watermark" style="font-size:80px">Sobre Nós</span>
                                     Automação Residencial | Projetos Especiais
                                 </h2>
-                                <p class="desc margin-0 pb-47">Com uma equipe altamente capacitada e experiente, a empresa oferece soluções personalizadas de automação residencial que visam melhorar o conforto, a segurança e a eficiência energética dos ambientes residenciais.</p>
+                                <p class="desc margin-0 pb-47">Bem-vindo ao nosso site! Somos uma empresa com mais de 15 anos de experiência no segmento de áudio, vídeo e automação. Ao longo dos anos, construímos uma reputação sólida como líderes nesse setor em constante evolução</p>
                                 <div class="row y-middle">
-                                   <div class="col-lg-5 md-mb-50">
-                                        <div class="rs-counter about home2-about">
-                                            <div class="counter-item plus">
-                                                <h2 class="rs-count">10</h2>
-                                                <div class="heading-title">
-                                                    Anos de Experiência
-                                                </div>
-                                            </div>
-                                        </div>
-                                   </div>
-                                   <div class="col-lg-7 pl-27 md-pl-15">
+                                   
+                                   <div class="col-lg-12 pl-27 md-pl-15">
                                        <div class="box-wrapper mb-22">
                                            <div class="icon-box">
                                                <i class="fa fa-adn"></i>
@@ -335,24 +205,20 @@
 
 
  <!-- Slider Start -->
- <div id="rs-slider" class="rs-slider slider1 home2-slider-style">
-    <div class="bend niceties">
-        <div id="nivoSlider" class="slides">
+ 
             <img id="Image-Maps-Com-image-maps-2023-05-17-010225" class="servicos" src="assets/images/bg/servicos.png" border="0" width="100%" orgWidth="1170" usemap="#image-maps-2023-05-17-010225" alt="" />
 <map name="image-maps-2023-05-17-010225" id="ImageMapsCom-image-maps-2023-05-17-010225">
-<area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="{{url('/')}}/contato" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="{{url('/')}}/contato" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
-<area  alt="Aspiração Central" title="Aspiração Central" href="{{url('/')}}/contato" shape="rect" coords="166,475,495,525" style="outline:none;" target="_self"     />
-<area  alt="Automação de Iluminação" title="Automação de Iluminação" href="{{url('/')}}/contato" shape="rect" coords="491,132,820,182" style="outline:none;" target="_self"     />
-<area  alt="Automação de Áudio e Vídeo" title="Automação de Áudio e Vídeo" href="{{url('/')}}/contato" shape="rect" coords="759,196,1088,246" style="outline:none;" target="_self"     />
-<area  alt="Automação de Ar Condicionado e Persianas" title="Automação de Ar Condicionado e Persianas" href="{{url('/')}}/contato" shape="rect" coords="796,349,1125,399" style="outline:none;" target="_self"     />
-<area  alt="Cameras de Monitoramento e Fechaduras" title="Cameras de Monitoramento e Fechaduras" href="{{url('/')}}/contato" shape="rect" coords="748,493,1077,543" style="outline:none;" target="_self"     />
+<area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="{{url('/')}}/sonorizacao" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
+<area  alt="" title="" href="{{url('/')}}/wifi" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
+<area  alt="Aspiração Central" title="Aspiração Central" href="{{url('/')}}/aspiracao" shape="rect" coords="166,475,495,525" style="outline:none;" target="_self"     />
+<area  alt="Automação de Iluminação" title="Automação de Iluminação" href="{{url('/')}}/automacao" shape="rect" coords="491,132,820,182" style="outline:none;" target="_self"     />
+<area  alt="Automação de Áudio e Vídeo" title="Automação de Áudio e Vídeo" href="{{url('/')}}/automacao" shape="rect" coords="759,196,1088,246" style="outline:none;" target="_self"     />
+<area  alt="Automação de Ar Condicionado e Persianas" title="Automação de Ar Condicionado e Persianas" href="{{url('/')}}/automacao" shape="rect" coords="796,349,1125,399" style="outline:none;" target="_self"     />
+<area  alt="Cameras de Monitoramento e Fechaduras" title="Cameras de Monitoramento e Fechaduras" href="{{url('/')}}/monitoramento" shape="rect" coords="748,493,1077,543" style="outline:none;" target="_self"     />
 <area shape="rect" coords="1168,628,1170,630" alt="Image Map" style="outline:none;" title="Image Map" href="https://www.image-maps.com/" />
 </map>
 
-        </div>
-    </div>
-</div>
+
 <!-- Slider End -->
 
 
@@ -368,7 +234,7 @@
                         <div class="project-content">
                             <div class="vertical-middle">
                                 <div class="vertical-middle-cell">
-                                    <h3 class="title"><a href="slider-style.html">Automação</a></h3>
+                                    <h3 class="title"><a href="{{url('/')}}/automacao">Automação</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -380,7 +246,7 @@
                         <div class="project-content">
                             <div class="vertical-middle">
                                 <div class="vertical-middle-cell">
-                                    <h3 class="title"><a href="slider-style.html">Home Theater</a></h3>
+                                    <h3 class="title"><a href="{{url('/')}}/hometheater">Home Theater</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -392,7 +258,7 @@
                         <div class="project-content">
                             <div class="vertical-middle">
                                 <div class="vertical-middle-cell">
-                                    <h3 class="title"><a href="slider-style.html">Sonorização</a></h3>
+                                    <h3 class="title"><a href="{{url('/')}}/sonorizacao">Sonorização</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -404,7 +270,7 @@
                         <div class="project-content">
                             <div class="vertical-middle">
                                 <div class="vertical-middle-cell">
-                                    <h3 class="title"><a href="slider-style.html">Rede Estruturada de WI-FI</a></h3>
+                                    <h3 class="title"><a href="{{url('/')}}/wifi">Rede Estruturada de WI-FI</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -414,6 +280,11 @@
                 </div>
             </div>
        </div>
+
+       
+
+
+
        <!-- Project Section End --> 
             <!-- Services Section Start -->
             <div class="rs-services style2 gray-bg pt-110 pb-100 md-pt-80 md-pb-70">
@@ -433,9 +304,9 @@
                                         <span class="number-prefix">01</span>
                                     </div>
                                     <div class="icon-img">
-                                        <img src="{{url('/')}}/assets/images/services/style2/1.png" alt="Services">
+                                        <img src="{{url('/')}}/assets/images/services/style2/4.png" alt="Services">
                                     </div>
-                                    <h3 class="title"><a href="architecture.html">Iluminação</a></h3>
+                                    <h3 class="title">Iluminação</h3>
                                     <p class="number-txt">Permite o controle das luzes da sua residência de forma inteligente</p>
                                 </div>
                             </div>
@@ -446,10 +317,10 @@
                                     <div class="number-part">
                                         <span class="number-prefix">02</span>
                                     </div>
-                                    <h3 class="title"><a href="interior-design.html">Climatização</a></h3>
+                                    <h3 class="title">Climatização</h3>
                                     <p class="number-txt">  Controlar o ar-condicionado, o aquecedor e a ventilação de forma centralizada</p>
                                     <div class="icon-img">
-                                        <img src="{{url('/')}}/assets/images/services/style2/2.png" alt="Services">
+                                        <img src="{{url('/')}}/assets/images/services/style2/4.png" alt="Services">
                                     </div>
                                 </div>
                             </div>
@@ -461,9 +332,9 @@
                                         <span class="number-prefix">03</span>
                                     </div>
                                     <div class="icon-img">
-                                        <img src="{{url('/')}}/assets/images/services/style2/3.png" alt="Services">
+                                        <img src="{{url('/')}}/assets/images/services/style2/4.png" alt="Services">
                                     </div>
-                                    <h3 class="title"><a href="planning.html">Áudio e Vídeo</a></h3>
+                                    <h3 class="title">Áudio e Vídeo</h3>
                                     <p class="number-txt">  Permite o controle de equipamentos de som e imagem de forma integrada</p>
                                  
                                 </div>
@@ -478,7 +349,7 @@
                                     <div class="icon-img">
                                         <img src="{{url('/')}}/assets/images/services/style2/4.png" alt="Services">
                                     </div>
-                                    <h3 class="title"><a href="renovation.html">Segurança</a></h3>
+                                    <h3 class="title">Segurança</h3>
                                     <p class="number-txt">  Permite o monitoramento e controle de sistemas de câmeras, alarmes, sensores e fechaduras</p>
                                 </div>
                             </div>
@@ -493,143 +364,75 @@
           </div>
         <!-- Main content End -->
      
-        <!-- Footer Start -->
-        <footer id="rs-footer" class="rs-footer style1">
-            <div class="footer-top">
-                <div class="container-fluid2">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
-                            <div class="footer-logo mb-40">
-                                <a href="index.html"><img src="assets/images/logo-lite.png" alt=""></a>
-                            </div>
-                            <ul class="footer-social md-mb-30">  
-                                <li> 
-                                    <a href="https://www.instagram.com/prolineautomacao/" target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                                </li>                                     
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
-                            <h3 class="footer-title">Informações de Contato</h3>
-                            <ul class="address-widget">
-                                <li>
-                                    <i class="flaticon-location"></i>
-                                    <div class="desc">São Paulo - SP<br>
-                                     Atendemos Todas as Regiões</div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-call"></i>
-                                    <div class="desc">
-                                       <a href="tel:+55 11 97959-5047">
-                                        +55 11 97959-5047</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-email"></i>
-                                    <div class="desc">
-                                        <a href="mailto:support@rstheme.com">shoiti@prolineautomacao.com.br</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10 pl-55 md-pl-15">
-                            <h3 class="footer-title">Menu</h3>
-                            <ul class="site-map">
-                                <li><a href="portfolio1.html">Home</a></li>
-                                <li><a href="standard-style.html">Sobre Nós</a></li>
-                                <li><a href="team.html">Serviço</a></li>
-                                <li><a href="team-single.html">Apresentação</a></li>
-                                <li><a href="team-single.html">Contato</a></li>
 
-                            </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+        <div id="rs-contact" class="rs-contact main-home bg14 pt-50 pb-100 md-pb-70">
+                <div class="container" id="contato">
+                    <div class="sec-title text-center mb-60">
+                        <div class="spacer-inner text-center mb-90 md-mb-50">
+                            <div class="spacer inner-style"></div>
                         </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12">
-                            <h3 class="footer-title">Inscreva-se</h3>
-                            <p class="rs-view-btn">
-                             <input type="email" name="EMAIL" placeholder="Entre com o seu E-mail" required="">
-                              <span class="subscribebtn"><input type="submit" value="Subscribe Now"></span>
-                            </p>
-                        </div>
+                        <h2 class="title pb-17">
+                           Entre em Contato Conosco
+                        </h2>
+                        <p class="margin-0">Somos Especialistas em Projetos Especiais de Automação Residencial para Casas de Alto Padrão<br> Entre em Contato Conosco</p>
                     </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container-fluid">
-                    <div class="row">                        
-                        <div class="col-md-12 col-sm-12">
-                            <div class="copyright text-center">
-                                <p>© Copyright 2023 Pro Line Automação, Todos os Direitos Reservados | Desenvolvido por RS Web </p>
-
-                                    
+                    <div class="row y-middle">
+                        
+                        <div class="col-lg-12 pl-30 md-pl-15">
+                            <div class="contact-section onepage">
+                                <div class="contact-wrap">
+                                    <div id="form-messages"></div>
+                                    <form id="contact-form" method="post" action="mailer.php">
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                                                    <input class="from-control" type="text" id="name" name="name" placeholder="Seu Nome" required="">
+                                                </div> 
+                                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                                                    <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
+                                                </div>   
+                                                <div class="col-lg-12 col-md-12 col-sm-12 mb-30">
+                                                    <input class="from-control" type="text" id="phone" name="phone" placeholder="Telefone" required="">
+                                                </div>   
+                                            
+                                          
+                                                <div class="col-lg-12 mb-35">
+                                                    <textarea class="from-control" id="message" name="msg" placeholder="Mensagem" required=""></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="btn-part">                                            
+                                                <div class="form-group mb-0">
+                                                    <div class="btnblack"><span class="btn-text"> <span><input type="submit" value="Enviar Mensagem" class="wpcf7-form-control wpcf7-submit"></span></span></div>
+                                                </div>
+                                            </div> 
+                                        </fieldset>
+                                    </form> 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- Footer End -->
-
-        <!-- start scrollUp  -->
-        <div id="scrollUp" class="orange-color">
-            <i class="fa fa-angle-up"></i>
-        </div>
-        <!-- End scrollUp  -->
 
 
-        <!-- Search Modal Start -->
-        <div class="modal fade search-modal" id="searchModal" tabindex="-1">
-            <button type="button" class="close" data-bs-dismiss="modal">
-                <span class="flaticon-cross"></span>
-            </button>
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="search-block clearfix">
-                        <form>
-                            <div class="form-group">
-                                <input class="form-control" placeholder="Search Here..." type="text">
-                                <button type="submit" value="Search"><i class="flaticon-search"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Search Modal End -->
-
-        <!-- modernizr js -->
-        <script src="{{url('/')}}/assets/js/modernizr-2.8.3.min.js"></script>
-        <!-- jquery latest version -->
-        <script src="{{url('/')}}/assets/js/jquery.min.js"></script>
-        <!-- Bootstrap v4.4.1 js -->
-        <script src="{{url('/')}}/assets/js/bootstrap.min.js"></script>
-        <!-- op nav js -->
-        <script src="{{url('/')}}/assets/js/jquery.nav.js"></script>
-        <!-- isotope.pkgd.min js -->
-        <script src="{{url('/')}}/assets/js/isotope.pkgd.min.js"></script>
-        <!-- owl.carousel js -->
-        <script src="{{url('/')}}/assets/js/owl.carousel.min.js"></script>
-        <!-- wow js -->
-        <script src="{{url('/')}}/assets/js/wow.min.js"></script>
-        <!-- Slick js -->
-        <script src="{{url('/')}}/assets/js/slick.min.js"></script>
-        <!-- Skill bar js -->
-        <script src="{{url('/')}}/assets/js/skill.bars.jquery.js"></script>
-        <!-- imagesloaded js -->
-        <script src="{{url('/')}}/assets/js/imagesloaded.pkgd.min.js"></script>
-         <!-- waypoints.min js -->
-        <script src="{{url('/')}}/assets/js/waypoints.min.js"></script>
-        <!-- counterup.min js -->
-        <script src="{{url('/')}}/assets/js/jquery.counterup.min.js"></script> 
-        <!-- ddbeforeandafter.min js -->
-        <script src="{{url('/')}}/assets/js/ddbeforeandafter.js"></script> 
-        <!-- magnific popup js -->
-        <script src="{{url('/')}}/assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- Nivo slider js -->
-        <script src="{{url('/')}}/assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
-        <!-- tilt js -->
-        <script src="{{url('/')}}/assets/js/tilt.jquery.min.js"></script> 
-        <!-- contact form js -->
-        <script src="{{url('/')}}/assets/js/contact.form.js"></script>
-        <!-- main js -->
-        <script src="{{url('/')}}/assets/js/main.js"></script>
-    </body>
-</html>
+@include('includes.footer')

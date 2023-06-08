@@ -1,40 +1,145 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="pt-br"> 
+    <head>
+        <!-- meta tag -->
+        <meta charset="utf-8">
+        <title>Pro Line - Automação Residencial</title>
+        <meta name="description" content="">
+        <!-- responsive tag -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="{{url('/')}}/assets/images/off2.jpg">
+        <!-- Bootstrap v4.4.1 css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/bootstrap.min.css">
+        <!-- font-awesome css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/font-awesome.min.css">
+        <!-- flaticon css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/fonts/flaticon.css">
+        <!-- animate css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/animate.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/slick.css">
+        <!-- off canvas css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/off-canvas.css">
+        <!-- magnific popup css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/magnific-popup.css">
+        <!-- Main Menu css -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/rsmenu-main.css">
+        <!-- nivo slider CSS -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/inc/custom-slider/css/nivo-slider.css">
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/inc/custom-slider/css/preview.css">
+        <!-- spacing css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/rs-spacing.css">
+        <!-- style css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/style.css"> <!-- This stylesheet dynamically changed from style.less -->
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/assets/css/responsive.css">
+        
+    </head>
+    <body class="defult-home">
 
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Pro Line Automação - Projetos Especiais</title>	
+    
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            .btn-whatsapp {
+                width: 225px;
+                position: fixed;
+                right: 15px;
+                bottom: 25px;
+                z-index: 99999;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
 
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="assets/images/favicon/dream-favicon.png" />
-	<link rel="apple-touch-icon" href="assets/images/favicon/dream-favicon.png" />
+<a href="https://api.whatsapp.com/send?phone=5511979595047&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Tinta%20D'Pneu" target="_blank" class="btn-whatsapp">
+<img src="https://cybertecontroledepragas.com.br/wp-content/uploads/2020/09/bot%C3%A3o-whatsapp-do-prime-gourmet.png" class="btn-whatsapp" title="Suporte Via WhatsApp" alt="Cotação Rápida por WhatsApp">
+</a>
+        <div class="offwrap"></div>
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Raleway:300,400,500,600,700,800,900|Roboto:300,400,500,700" rel="stylesheet">
-	
-	<!-- =>> All Stylesheet <<= -->
-	<!-- Bootstrap v3.3.6 Core CSS-->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />  
-	<!-- Owl Carousel 2 -->
-	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.css" />
-	<!-- jquery-ui-1.12.0 CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui-css/jquery-ui-1.12.0.min.css" />
-	<!-- Noice Slider (Price Range) -->
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery.nouislider.min.css" />
-	<!-- Animate 3.5.1 CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
-	<!--  Font Awesome 4.6.3 Icons -->
-	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
-	<!-- Flat Icons -->
-	<link rel="stylesheet" type="text/css" href="assets/flaticons/font/flaticon.css" />
+        <!--Preloader start here-->
+        <div id="archtek-load">
+            <div class="archtek-loader la-2x">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div> 
+        <!--Preloader area end here-->
+     
+		<!-- Main content Start -->
+        <div class="main-content" id="home">
 
-	<!-- Custom/Main Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/header-menu-responsive.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-
-</head>
+            <!--Full width header Start-->
+            <div class="full-width-header">
+                <!--Header Start-->
+                <header id="rs-header" class="rs-header home2-header-style1 header-transparent">
+                    <!-- Menu Start -->
+                    <div class="menu-area menu-sticky">
+                        <div class="container-fluid">
+                            <div class="row-table">
+                                <div class="col-cell header-logo">                                  
+                                    <div class="logo-area">
+                                        <a href="{{url('/')}}">
+                                            <img src="assets/images/logo-lite.png" alt="logo" style="max-height:50px">  
+                                            <img class="sticky-logo" src="assets/images/logo.png" alt="logo">  
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-cell">
+                                    <div class="rs-menu-area">
+                                        <div class="main-menu">
+                                            <nav class="rs-menu hidden-md">
+                                                <ul class="nav-menu">
+                                                    <li class="menu-item-has-children  current-menu-item">
+                                                        <a href="{{url('/')}}/#home">Home</a>
+                                                    </li>
+                                                    <li class="menu-item-has-children">
+                                                        <a href="{{url('/')}}/#sobre-nos">Sobre Nós</a>                                                        
+                                                       
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{url('/')}}/#servicos">Serviços</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{url('/')}}/#apresentacao">Apresentação</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{url('/')}}/#contato">Contato</a>
+                                                    </li>
+                                                </ul> <!-- //.nav-menu -->
+                                            </nav>
+                                        </div> <!-- //.main-menu -->
+                                    </div>
+                                </div>
+                                <div class="col-cell">
+                                    <div class="expand-btn-inner">                                       
+                                        <ul>
+                                            <li class="contact-phone">
+                                                <i class="flaticon-call"></i>                                      
+                                                <a href="tel:+55 11 97959-5047"> +55 11 97959-5047</a>                   
+                                            </li>
+                                            
+                                            <li class="humburger">
+                                                <a id="nav-expander" class="nav-expander bar" href="#">
+                                                    <div class="bar">
+                                                        <span class="dot1"></span>
+                                                        <span class="dot2"></span>
+                                                        <span class="dot3"></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Menu End -->
