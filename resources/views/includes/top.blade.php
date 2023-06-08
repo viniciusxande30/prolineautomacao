@@ -105,8 +105,16 @@
                                                         <a href="{{url('/')}}/#sobre-nos">Sobre Nós</a>                                                        
                                                        
                                                     </li>
-                                                    <li>
-                                                        <a href="{{url('/')}}/#servicos">Serviços</a>
+                                                    <li class="menu-item-has-children">
+                                                        <a href="#">Serviços</a>                                                        
+                                                        <ul class="sub-menu">
+                                                            <li><a href="{{url('/')}}/automacao">Automação</a></li>                                                            
+                                                            <li><a href="{{url('/')}}/sonorizacao">Sonorização</a></li>
+                                                            <li><a href="{{url('/')}}/monitoramento">Monitoramento e Controle de Acesso</a></li>                                                            
+                                                            <li><a href="{{url('/')}}/wifi">Rede Estruturada e Wi-Fi</a></li>
+                                                            <li><a href="{{url('/')}}/aspiracao">Aspiração Central</a></li>                                                            
+                                                            <li><a href="{{url('/')}}/hometheater">Home Theater</a></li>
+                                                        </ul>
                                                     </li>
                                                     <li>
                                                         <a href="{{url('/')}}/#apresentacao">Apresentação</a>
