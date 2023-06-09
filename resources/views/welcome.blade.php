@@ -141,17 +141,17 @@
             <!--Full width header End-->
 
             <!-- Slider Start -->
-            <div id="rs-slider" class="rs-slider slider1 home2-slider-style">
+            <!-- <div id="rs-slider" class="rs-slider slider1 home2-slider-style">
                 <div class="bend niceties">
                     <div id="nivoSlider" class="slides">
 
                         <img src="assets/images/slider/h2-sl1.jpg" alt="" title="#slide-1" />
-                        <div class="nivo-caption" style="display: block;">
+                        <div class="nivo-caption" style="display: block;opacity:1;">
                         <div class="content-part" style="background-color:transparent">
                             <div class="container custom2">
                                 
                                 <div class="slider-bottom ">
-                                    <a class="readon project" href="{{url('/')}}/#servicos"><div class="text-btn"><span style="opacity:0.8">Projetos Especiais</span></div></a>
+                                    <a class="readon project" href="{{url('/')}}/#servicos"><div class="text-btn"><span style="opacity:0.8"><p>Projetos Especiais<p></span></div></a>
                                 </div>
                             </div>
                         </div>
@@ -159,8 +159,19 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
             <!-- Slider End -->
+
+
+            <div class="rs-breadcrumbs img1">
+                <div class="container">
+                    <div class="breadcrumbs-inner">
+                        <h1 class="page-title">Projetos Especiais</h1>
+                       
+                    </div>
+                </div>
+            </div>
+            
 
             
 
