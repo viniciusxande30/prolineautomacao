@@ -47,7 +47,7 @@
                 scroll-behavior: smooth;
             }
             .btn-whatsapp {
-                width: 225px;
+                width: 80px;
                 position: fixed;
                 right: 15px;
                 bottom: 25px;
@@ -60,7 +60,7 @@
         </style>
 
 <a href="https://api.whatsapp.com/send?phone=5511979595047&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Tinta%20D'Pneu" target="_blank" class="btn-whatsapp">
-<img src="https://cybertecontroledepragas.com.br/wp-content/uploads/2020/09/bot%C3%A3o-whatsapp-do-prime-gourmet.png" class="btn-whatsapp" title="Suporte Via WhatsApp" alt="Cotação Rápida por WhatsApp">
+<img src="https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png" class="btn-whatsapp" title="Suporte Via WhatsApp" alt="Cotação Rápida por WhatsApp">
 </a>
         <div class="offwrap"></div>
 
