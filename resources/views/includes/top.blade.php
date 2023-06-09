@@ -41,6 +41,36 @@
     </head>
     <body class="defult-home">
 
+    <?php
+    /*
+    Trecho de exemplo extraído do WordPress - wp_is_mobile()
+    */
+ 
+    function isMobile() {
+        $is_mobile = false;
+ 
+        //Se tiver em branco, não é mobile
+        if ( empty($_SERVER['HTTP_USER_AGENT']) ) {
+            $is_mobile = false;
+ 
+        //Senão, se encontrar alguma das expressões abaixo, será mobile
+        } elseif ( strpos($_SERVER['HTTP_USER_AGENT'], 'Mobile') !== false
+            || strpos($_SERVER['HTTP_USER_AGENT'], 'Android') !== false
+            || strpos($_SERVER['HTTP_USER_AGENT'], 'Silk/') !== false
+            || strpos($_SERVER['HTTP_USER_AGENT'], 'Kindle') !== false
+            || strpos($_SERVER['HTTP_USER_AGENT'], 'BlackBerry') !== false
+            || strpos($_SERVER['HTTP_USER_AGENT'], 'Opera Mini') !== false
+            || strpos($_SERVER['HTTP_USER_AGENT'], 'Opera Mobi') !== false ) {
+                $is_mobile = true;
+ 
+        //Senão encontrar nada, não será mobile
+        } else {
+            $is_mobile = false;
+        }
+ 
+        return $is_mobile;
+    }
+?>
     
         <style>
             html{
@@ -134,7 +164,7 @@
                                                 <i class="flaticon-call"></i>                                      
                                                 <a href="tel:+55 11 97959-5047"> +55 11 97959-5047</a>                   
                                             </li>
-                                            
+                                            <?php if(isMobile()){ ?>
                                             <li class="humburger">
                                                 <a id="nav-expander" class="nav-expander bar" href="#">
                                                     <div class="bar">
@@ -144,6 +174,7 @@
                                                     </div>
                                                 </a>
                                             </li>
+                                            <?php } ?>
                                         </ul>
                                     </div>
                                 </div>
