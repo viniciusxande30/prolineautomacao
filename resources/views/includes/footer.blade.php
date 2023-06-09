@@ -31,7 +31,7 @@
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">
-                                        <a href="mailto:support@rstheme.com">shoiti@prolineautomacao.com.br</a>
+                                        <a href="mailto:support@rstheme.com">contato@prolineautomacao.com.br</a>
                                     </div>
                                 </li>
                             </ul>

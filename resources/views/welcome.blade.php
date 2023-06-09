@@ -44,7 +44,7 @@
                                     </div>
                                     <div class="info-content">
                                         <h4 class="title">E-mail</h4>
-                                        <em><a href="mailto:support@rstheme.com">shoiti@prolineautomacao.com.br</a></em>
+                                        <em><a href="mailto:contato@prolineautomacao.com.br">contato@prolineautomacao.com.br</a></em>
                                     </div>
                                  </div>
                                 <div class="address-list">
@@ -119,7 +119,7 @@
                                       </div>
                                       <div class="info-content">
                                           <h4 class="title">E-mail</h4>
-                                          <em><a href="mailto:shoiti@prolineautomacao.com.br">shoiti@prolineautomacao.com.br</a></em>
+                                          <em><a href="mailto:contato@prolineautomacao.com.br">contato@prolineautomacao.com.br</a></em>
                                       </div>
                                   </div>
                                   <div class="address-list">
