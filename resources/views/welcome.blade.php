@@ -248,7 +248,7 @@
                 <div class="slider team-style1">
                     <div class="project-item">
                         <div class="project-img">
-                            <a href="slider-style.html"><img src="assets/images/project/style2/1.jpg" alt="Project"></a>
+                            <a href="{{url('/')}}/automacao"><img src="assets/images/project/style2/1.jpg" alt="Project"></a>
                         </div>
                         <div class="project-content">
                             <div class="vertical-middle">

@@ -87,6 +87,7 @@
                 max-width: 100%;
                 height: auto;
             }
+           
         </style>
 
 <a href="https://api.whatsapp.com/send?phone=5511979595047&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Tinta%20D'Pneu" target="_blank" class="btn-whatsapp">
@@ -133,6 +134,10 @@
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="{{url('/')}}/#sobre-nos">Sobre Nós</a>                                                        
+                                                       
+                                                    </li>
+                                                    <li class="menu-item-has-children">
+                                                        <a href="{{url('/')}}/corporativo">Soluções Corporativas</a>                                                        
                                                        
                                                     </li>
                                                     <li class="menu-item-has-children">

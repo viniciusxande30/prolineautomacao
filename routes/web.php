@@ -37,6 +37,9 @@ Route::get('/sonorizacao', function () {
 Route::get('/wifi', function () {
     return view('wifi');
 });
+Route::get('/corporativo', function () {
+    return view('corporativo');
+});
 
 
 Route::post('/envio-cotacao',[Controller::class,'quotationApi'])->name('quotationApi');
