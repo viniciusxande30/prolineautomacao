@@ -225,7 +225,7 @@
 
  <!-- Slider Start -->
  
-            <img id="Image-Maps-Com-image-maps-2023-05-17-010225" class="servicos" src="assets/images/bg/servicos.png" border="0" width="100%" orgWidth="1170" usemap="#image-maps-2023-05-17-010225" alt="" />
+            <!-- <img id="Image-Maps-Com-image-maps-2023-05-17-010225" class="servicos" src="assets/images/bg/servicos.png" border="0" width="100%" orgWidth="1170" usemap="#image-maps-2023-05-17-010225" alt="" />
 <map name="image-maps-2023-05-17-010225" id="ImageMapsCom-image-maps-2023-05-17-010225">
 <area  alt="Sonorização de Ambientes e Home Theater" title="Sonorização de Ambientes e Home Theater" href="{{url('/')}}/sonorizacao" shape="rect" coords="56,213,385,263" style="outline:none;" target="_self"     />
 <area  alt="" title="" href="{{url('/')}}/wifi" shape="rect" coords="82,355,411,405" style="outline:none;" target="_self"     />
@@ -235,7 +235,7 @@
 <area  alt="Automação de Ar Condicionado e Persianas" title="Automação de Ar Condicionado e Persianas" href="{{url('/')}}/automacao" shape="rect" coords="796,349,1125,399" style="outline:none;" target="_self"     />
 <area  alt="Cameras de Monitoramento e Fechaduras" title="Cameras de Monitoramento e Fechaduras" href="{{url('/')}}/monitoramento" shape="rect" coords="748,493,1077,543" style="outline:none;" target="_self"     />
 <area shape="rect" coords="1168,628,1170,630" alt="Image Map" style="outline:none;" title="Image Map" href="https://www.image-maps.com/" />
-</map>
+</map> -->
 
 
 <!-- Slider End -->
