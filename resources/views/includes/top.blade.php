@@ -87,6 +87,10 @@
                 max-width: 100%;
                 height: auto;
             }
+            /* .full-width-header .rs-header .menu-area {
+                background: black;
+                opacity: 0.8;
+            } */
            
         </style>
 

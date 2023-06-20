@@ -1,3 +1,10 @@
+<style>
+.full-width-header .rs-header .menu-area {
+                background: black !important;
+                opacity: 0.8 !important;
+            }
+           
+        </style>
 @include('includes.top')
 
                    
