@@ -40,8 +40,8 @@
                             <h3 class="footer-title">Menu</h3>
                             <ul class="site-map">
                                 <li><a href="{{url('/')}}">Home</a></li>
-                                <li><a href="{{url('/')}}/#sobre-nos">Sobre Nós</a></li>
-                                <li><a href="{{url('/')}}/#apresentacao">Apresentação</a></li>
+                                <li><a href="{{url('/')}}/#sobre-nos">Apresentação</a></li>
+                                <li><a href="{{url('/')}}/#apresentacao">Serviços</a></li>
                                 <li><a href="https://api.whatsapp.com/send?phone=5511979595047&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20Proline%20Automação" target="_BLANK">Contato</a></li>
 
                             </ul>
