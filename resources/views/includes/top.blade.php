@@ -94,7 +94,7 @@
            
         </style>
 
-<a href="https://api.whatsapp.com/send?phone=5511979595047&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Tinta%20D'Pneu" target="_blank" class="btn-whatsapp">
+<a href="https://api.whatsapp.com/send?phone=5511979595047&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20Proline%20Automação" target="_blank" class="btn-whatsapp">
 <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png" class="btn-whatsapp" title="Suporte Via WhatsApp" alt="Cotação Rápida por WhatsApp">
 </a>
         <div class="offwrap"></div>

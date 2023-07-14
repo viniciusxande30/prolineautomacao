@@ -31,7 +31,7 @@
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">
-                                        <a href="mailto:support@rstheme.com">contato@prolineautomacao.com.br</a>
+                                        <a href="mailto:support@rstheme.com">comercial@prolineautomacao.com.br</a>
                                     </div>
                                 </li>
                             </ul>
@@ -62,7 +62,7 @@
                     <div class="row">                        
                         <div class="col-md-12 col-sm-12">
                             <div class="copyright text-center">
-                                <p>© Copyright 2023 Pro Line Automação, Todos os Direitos Reservados | Desenvolvido por RS Web </p>
+                                <p>© Copyright 2023 Pro Line Automação, Todos os Direitos Reservados | Desenvolvido por <a href="https://rsweb.com.br">RS Web</a> </p>
 
                                     
                             </div>
