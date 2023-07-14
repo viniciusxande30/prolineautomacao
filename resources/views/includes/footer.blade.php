@@ -39,11 +39,10 @@
                         <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10 pl-55 md-pl-15">
                             <h3 class="footer-title">Menu</h3>
                             <ul class="site-map">
-                                <li><a href="portfolio1.html">Home</a></li>
-                                <li><a href="standard-style.html">Sobre Nós</a></li>
-                                <li><a href="team.html">Serviço</a></li>
-                                <li><a href="team-single.html">Apresentação</a></li>
-                                <li><a href="team-single.html">Contato</a></li>
+                                <li><a href="{{url('/')}}">Home</a></li>
+                                <li><a href="{{url('/')}}/#sobre-nos">Sobre Nós</a></li>
+                                <li><a href="{{url('/')}}/#apresentacao">Apresentação</a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=5511979595047&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20Proline%20Automação" target="_BLANK">Contato</a></li>
 
                             </ul>
                         </div>
